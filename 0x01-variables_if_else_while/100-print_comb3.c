@@ -14,21 +14,21 @@ int main(void)
 	i = 48;
 	e = 48;
 
-	while (e < 58)
+	while (i < 58)
 	{
-		i = 48;
-		while (i < 58)
+		e = 48;
+		while (e < 58)
 		{
-			putchar(e);
 			putchar(i);
-			if (i < 57 && e < 57)
+			putchar(e);
+			if (i < 57 || e < 57)
 			{
 			putchar(44);
 			putchar(32);
 			}
-			i++;
+			e++;
 		}
-		e++;
+		i++;
 	}
 	putchar('\n');
 	return (0);
