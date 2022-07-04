@@ -10,7 +10,6 @@
 int main(void)
 {
 	int i = 0;
-	
 	while (i < 48)
 	{
 		if (i < 10)
