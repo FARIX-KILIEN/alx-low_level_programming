@@ -2,7 +2,7 @@
  /**
   * main - Prints numbers between 0 to 9 and letters between a to f.
   *
-  * Description: Prints numbers between 0 to 9 and letters between a to f.
+  * Description: numbers between 0 to 9 and letters between a to f.
   *
   * Return: always 0 (success)
   */
@@ -20,4 +20,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}		
+}
