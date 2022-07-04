@@ -5,7 +5,7 @@
  *
  * Description: printing the alphabet startint from z to a
  *
- * Return : always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
