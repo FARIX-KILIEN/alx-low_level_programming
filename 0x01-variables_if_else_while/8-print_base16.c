@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdio.h>
+#include <time.h>
 
  /**
   * Main: Prints numbers between 0 to 9 and letters between a to f.
@@ -10,6 +12,7 @@
 int main(void)
 {
 	int i = 0;
+	
 	while (i < 48)
 	{
 		if (i < 10)
