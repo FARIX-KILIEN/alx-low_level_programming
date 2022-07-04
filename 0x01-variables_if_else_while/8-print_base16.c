@@ -2,16 +2,16 @@
 #include <stdio.h>
 #include <time.h>
 
- /**
-  * Main: Prints numbers between 0 to 9 and letters between a to f.
-  *
-  * Description: all the numbers of base 16 in lowercase
-  *
-  * Return: always 0 (success)
-  */
+/**
+ * Main: Prints numbers between 0 to 9 and letters between a to f.
+ *
+ * Description: all the numbers of base 16 in lowercase
+ *
+ * Return: always 0 (success)
+ */
 int main(void)
 {
-	int i = 0;
+	int i;
 	
 	while (i < 48)
 	{
