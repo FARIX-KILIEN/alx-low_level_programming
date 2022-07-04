@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * Initialization, should only be called once
+ * main - print last digit in random number
  *
- * Returns a pseudo-random integer between 0 and RAND_MAX
+ * Description: print last digit in random number
+ *
+ * Return: Always 0 (Success)
  */
 
 int main(void)
