@@ -4,13 +4,13 @@
  *
  * Description: the numbers are in base 10 and they start from 0
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
 	int i;
 
-	for (i = 0; i > 0; i++)
+	for (i = 0; i < 10; i++)
 	{
 		printf("%d\n", i);
 	}
