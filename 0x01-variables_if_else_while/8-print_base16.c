@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * Main: Prints numbers between 0 to 9 and letters between a to f.
+ * main - Prints numbers between 0 to 9 and letters between a to f.
  *
  * Description: all the numbers of base 16 in lowercase
  *
@@ -12,15 +12,15 @@
 int main(void)
 {
 	int i;
-	
-	while (i < 48)
+
+	for (i = 48; i < 58; i++)
 	{
-		if (i < 10)
-			putchar(i + '0');
-		else if (i > 41)
-			putchar(i - 10 + 'A');
-		i++;
+		putchar(i);
 	}
-	putchar(10);
+	for (i = 97; i < 103; i++)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 	return (0);
 }
