@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i > 0; i++)
 	{
-		pintf("%d\n", i);
+		printf("%d\n", i);
 	}
 	return (0);
 }
