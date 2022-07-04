@@ -2,7 +2,7 @@
  /**
   * main - Prints numbers between 0 to 9 and letters between a to f.
   *
-  * Description: numbers between 0 to 9 and letters between a to f.
+  * Description: all the numbers of base 16 in lowercase
   *
   * Return: always 0 (success)
   */
