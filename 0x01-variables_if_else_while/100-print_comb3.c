@@ -11,24 +11,21 @@ int main(void)
 {
 	int i, e;
 
-	i = 48;
-	e = 48;
-
-	while (i < 58)
+	for (i = '0'; i <= '9'; i++)
 	{
-		e = 48;
-		while (e < 58)
+		for (e = '1'; e <= '9'; e++)
 		{
+			if ( i == '0' || (i != e && i < e))
+			{
 			putchar(i);
 			putchar(e);
-			if (i < 57 || e < 57)
+			if (i != '8')
 			{
 			putchar(44);
 			putchar(32);
 			}
-			e++;
+			}
 		}
-		i++;
 	}
 	putchar('\n');
 	return (0);
