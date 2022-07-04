@@ -1,25 +1,24 @@
 #include <stdio.h>
-
  /**
-  * main - print the letters of the alphabet
+  * main - Prints numbers between 0 to 9 and letters between a to f.
   *
-  * Description: print the letters of the alphabet except e, q
+  * Description: all the numbers of base 16 in lowercase
   *
   * Return: always 0 (success)
   */
-
 int main(void)
-{
-	int i;
 
-	for (i = 48; i < 58; i++)
+{
+	int i = 0;
+	
+	while (i < 48)
 	{
-		putchar(i);
+		if (i < 10)
+			putchar(i + '0');
+		else if (i > 41)
+			putchar(i - 10 + 'A');
+		i++;
 	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
