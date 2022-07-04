@@ -1,9 +1,9 @@
 #include <stdio.h>
 
  /**
-  * main - Prints numbers between 0 to 9 and letters between a to f.
+  * main - print the letters of the alphabet
   *
-  * Description: all the numbers of base 16 in lowercase
+  * Description: print the letters of the alphabet except e, q
   *
   * Return: always 0 (success)
   */
