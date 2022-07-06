@@ -11,13 +11,12 @@
  */
 int main(void)
 {
-	char alp[26] = "abcdefdhijklmnopqrstuvwxyz";
 	int i;
-
-		for (i = 0; i < 26; i++)
-		{
-			putchar(alp[i]);
-		}
+	
+	for (i = 97; i <= 122; i++)
+	{
+		putchar(i);
+	}
 	putchar('\n');
 	return (0);
 }
