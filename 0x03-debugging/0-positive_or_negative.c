@@ -7,7 +7,7 @@
  *
  * Description: printthe last digit of the number stored in te variable
  *
- * Return: 0 
+ * Return: 0
  */
 int main(void)
 {
