@@ -1,13 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - checks if parameter is an uppercase character.
  *
- * Description: uppercase and lowercase checking
+ * _isupper uppercase and lowercase checking
  *
  * Return: 1 if is an uppercase character, 0 in other case.
  */
-int main(void)
+int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
