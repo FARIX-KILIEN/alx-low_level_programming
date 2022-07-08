@@ -10,7 +10,7 @@ int main(void)
 	int n;
 n = 0;
 printf("%d", n);
-for (n = 2; n <= 100; n++)
+for (n = 1; n < 101; n++)
 {
 	if ((n % 3 == 0) && (n % 5 == 0))
 	{
@@ -21,6 +21,7 @@ for (n = 2; n <= 100; n++)
 		printf(" Fizz");
 	}
 	else if (n % 5 == 0)
+		if (n == 100)
 	{
 		printf(" Buzz");
 	}
