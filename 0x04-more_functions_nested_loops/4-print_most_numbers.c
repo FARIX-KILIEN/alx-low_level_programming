@@ -5,7 +5,7 @@
  *
  * (neither 2 nor 4).
  */
-void print_most_numbers(void);
+void print_most_numbers(void)
 {
 	int X;
 
