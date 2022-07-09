@@ -7,7 +7,8 @@
  *
  * Return: always 0 (success)
  */
-void print_alphabet(void)
+
+void print_alphabet(void)/*prototype found in file main.h*/
 {
 	int i;
 
