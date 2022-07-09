@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - alphabet in lower case
+ * print_alphabet - Prints the alphabet in lowercase.
  *
  * Description: printing the alphabet in lower case using the putchar
  *
  * Return: always 0 (success)
  */
 
-void print_alphabet(void)/*prototype found in file main.h*/
+void print_alphabet(void)
 {
 	int i;
 
