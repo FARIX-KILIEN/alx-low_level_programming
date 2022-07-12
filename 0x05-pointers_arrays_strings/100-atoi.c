@@ -13,8 +13,10 @@
  */
 int _atoi(char *s)
 {
-	unsigned int i, h = 0, p = -1;
+	unsigned int i;
 
+	h = 0;
+	p = -1;
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == '_')
