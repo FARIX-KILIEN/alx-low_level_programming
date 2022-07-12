@@ -2,21 +2,16 @@
 
 /**
  * _puts - to prints a string
- * *str: nput string.
+ * @str: nput string.
  * Return: no return
  */
 void _puts(char *str)
 {
-	int x = 0;
+	int i;
 
-	while (x >= 0)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[x] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		_putchar(str[x]);
-		x++;
+		_putchar(str[i]);
 	}
+	_putchar('\n');
 }
