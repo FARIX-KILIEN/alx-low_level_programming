@@ -2,7 +2,7 @@
 
 /**
  * rev_string - reverse a string
- * @str: char array string type
+ * @s: char array string type
  * Description: Can only use _putchar
  */
 void rev_string(char *s)
