@@ -1,4 +1,4 @@
-#include "main.h"
+#nclude "main.h"
 
 /**
  * _atoi - Convert a string to integer.
@@ -13,7 +13,7 @@
  */
 int _atoi(char *s)
 {
-	int i;
+	unsigned int i, h, p;
 
 	h = 0;
 	p = -1;
