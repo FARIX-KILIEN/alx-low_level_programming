@@ -5,7 +5,7 @@
  * @n: input value
  * Return: return 0
  */
-int is_prime_number(int n)
+int is_prime_number(unsigned int n, unsigned int c)
 {
 	if (n % c == 0)
 	{
