@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * is_prime_number - identifies a prime number
+ * is_prime - identifies a prime number
  * @n: input value
- * Return: return 0
+ * Return: return 0 or 1
  */
-int is_prime_number(unsigned int n, unsigned int c)
+int is_prime(unsigned int n, unsigned int c)
 {
 	if (n % c == 0)
 	{
