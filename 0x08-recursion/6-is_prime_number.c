@@ -3,6 +3,7 @@
 /**
  * is_prime - identifies a prime number
  * @n: input value
+ * @c: iterator.
  * Return: return 0 or 1
  */
 int is_prime(unsigned int n, unsigned int c)
